@@ -156,32 +156,7 @@ const Header: React.FC = () => {
             />
             +1(909) 235-9814
           </Link>
-          <nav className="flex flex-col items-start p-4">
-            {headerLink.map((item, index) => (
-              <MobileHeaderLink key={index} item={item} />
-            ))}
-            <div className="mt-4 flex flex-col space-y-4 w-full">
-              <button
-                className="bg-primary text-white px-4 py-2 rounded-lg border  border-primary hover:text-primary hover:bg-transparent hover:cursor-pointer transition duration-300 ease-in-out"
-                onClick={() => {
-                  setIsSignInOpen(true);
-                  setNavbarOpen(false);
-                }}
-              >
-                Sign In
-              </button>
-              <button
-                className="bg-primary text-white px-4 py-2 rounded-lg border  border-primary hover:text-primary hover:bg-transparent hover:cursor-pointer transition duration-300 ease-in-out"
-                onClick={() => {
-                  setIsSignUpOpen(true);
-                  setNavbarOpen(false);
-                }}
-              >
-                Sign Up
-              </button>
-            </div>
-          </nav>
-        </div>
+                  </div>
       </div>
     </header>
   );
