@@ -105,60 +105,7 @@ const Header: React.FC = () => {
               />
               +1(909) 235-9814
             </Link>
-            <button
-              className='hidden lg:block text-primary duration-300 bg-primary/15 hover:text-white hover:bg-primary font-medium text-lg py-2 px-6 rounded-full hover:cursor-pointer'
-              onClick={() => {
-                setIsSignInOpen(true)
-              }}>
-              Sign In
-            </button>
-            {isSignInOpen && (
-              <div className='fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50'>
-                <div
-                  ref={signInRef}
-                  className='relative mx-auto w-full max-w-md overflow-hidden rounded-lg px-8 pt-14 pb-8 text-center bg-white'>
-                  <button
-                    onClick={() => setIsSignInOpen(false)}
-                    className='absolute top-0 right-0 mr-4 mt-8 hover:cursor-pointer'
-                    aria-label='Close Sign In Modal'>
-                    <Icon
-                      icon='material-symbols:close-rounded'
-                      width={24}
-                      height={24}
-                      className='text-black hover:text-primary text-24 inline-block me-2'
-                    />
-                  </button>
-                  <Signin />
-                </div>
-              </div>
-            )}
-            <button
-              className='hidden lg:block bg-primary duration-300 text-white hover:bg-primary/15 hover:text-primary font-medium text-lg py-2 px-6 rounded-full hover:cursor-pointer'
-              onClick={() => {
-                setIsSignUpOpen(true)
-              }}>
-              Sign Up
-            </button>
-            {isSignUpOpen && (
-              <div className='fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50'>
-                <div
-                  ref={signUpRef}
-                  className='relative mx-auto w-full max-w-md overflow-hidden rounded-lg bg-dark_grey/90 bg-white backdrop-blur-md px-8 pt-14 pb-8 text-center'>
-                  <button
-                    onClick={() => setIsSignUpOpen(false)}
-                    className='absolute top-0 right-0 mr-4 mt-8 hover:cursor-pointer'
-                    aria-label='Close Sign Up Modal'>
-                    <Icon
-                      icon='material-symbols:close-rounded'
-                      width={24}
-                      height={24}
-                      className='text-black hover:text-primary text-24 inline-block me-2'
-                    />
-                  </button>
-                  <SignUp />
-                </div>
-              </div>
-            )}
+
             <button
               onClick={() => setNavbarOpen(!navbarOpen)}
               className='block lg:hidden p-2 rounded-lg'

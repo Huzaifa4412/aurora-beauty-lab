@@ -44,7 +44,7 @@ const Hero = () => {
         {
           opacity: 1,
           scale: 1,
-          duration: 1,
+          duration: 1.5,
           ease: "back.out(1.2)",
         },
         "-=0.4"
