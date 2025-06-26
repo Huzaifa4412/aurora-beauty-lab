@@ -32,16 +32,13 @@ const Cook = () => {
               Crafted with Passion, Served with Pride
             </h2>
             <p className='text-black/50 text-lg font-normal my-5 text-start'>
-              At Chef’s Kitchen, every dish tells a story. Our chefs blend
-              tradition with innovation to deliver a fine dining experience that
-              delights the senses. From handpicked ingredients to exquisite
-              plating, we’re here to make every meal unforgettable.
+              At Aurora Beauty, beauty is more than a service — it’s an experience. Founded with a passion for self-expression and self-care, we offer a refined space where artistry meets relaxation. From glowing skin treatments to transformative hair care and flawless makeup, every service is designed to help you feel confident, radiant, and uniquely you.
+
+Our team of skilled professionals brings years of expertise, using premium products, personalized techniques, and a deep understanding of beauty trends and skin science. Whether you're preparing for a big moment or just indulging in a little self-love, Aurora is your destination for timeless beauty and modern style.
+
+Step into Aurora. Step into your glow.
             </p>
-            <p className='text-black/50 text-lg font-normal mb-10 text-start'>
-              Whether you’re celebrating a special occasion or enjoying a casual
-              evening out, our welcoming ambiance and flavorful creations
-              promise something truly special for every guest.
-            </p>
+           
             <button className='text-xl font-medium rounded-full text-white py-3 px-8 duration-300 bg-primary w-fit border border-primary hover:bg-transparent hover:text-primary hover:cursor-pointer'>
               Learn more
             </button>

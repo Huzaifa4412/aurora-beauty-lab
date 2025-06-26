@@ -37,7 +37,7 @@ const Features = () => {
            Where Beauty Becomes a Ritual, Not Just a Routine
           </h2>
         </div>
-        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-28 gap-x-6 mt-24'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-28 gap-x-6 mt-30'>
           {loading
             ? Array.from({ length: 4 }).map((_, i) => (
                 <FeaturesSkeleton key={i} />
@@ -46,15 +46,17 @@ const Features = () => {
                 <div
                   key={i}
                   className='p-8 relative rounded-3xl bg-linear-to-b from-primary/10 to-white shadow-md hover:scale-105 transition duration-300 ease-in-out hover:cursor-pointer'>
-                  <div className='rounded-full flex justify-center absolute -top-[50%] sm:top-[-40%] md:top-[-55%] lg:top-[-35%] left-[0%]'>
+                  <div className=' flex justify-center absolute rounded-full -top-[50%] sm:top-[-40%] md:top-[-55%] lg:top-[0] left-[50%] -translate-x-1/2'>
                     <Image
                       src={items.imgSrc}
                       alt={items.imgSrc}
-                      width={510}
-                      height={10}
+                      className='rounded-full mb-10 w-[120px] h-[120px] object-cover'
+                      layout='responsive'
+                      width={100}
+                      height={100}
                     />
                   </div>
-                  <p className='text-2xl text-black font-semibold text-center mt-16'>
+                  <p className='text-2xl text-black font-semibold text-center mt-20'>
                     {items.heading}
                   </p>
                   <p className='text-base font-normal text-black/50 text-center mt-2 leading-6'>

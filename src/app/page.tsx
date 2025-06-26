@@ -7,6 +7,7 @@ import Gallery from "@/app/components/Home/Gallery";
 import Newsletter from "@/app/components/Home/Newsletter";
 import { Metadata } from "next";
 import ContactForm from "./components/Contact/Form";
+
 export const metadata: Metadata = {
   title: "Aurora Beauty Lab",
 };
@@ -21,6 +22,8 @@ export default function Home() {
       <Gallery />
       <ContactForm />
       <Newsletter />
+    
+
     </main>
   );
 }

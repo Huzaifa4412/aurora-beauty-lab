@@ -44,28 +44,15 @@ const Newsletter = () => {
           <div className='md:col-span-5 relative hidden md:block'>
             <div>
               <Image
-                src={'/images/Newsletter/soup.webp'}
+                src={'/images/new.svg'}
                 alt='soup-image'
                 width={626}
                 height={602}
-                className='-mt-24'
+                className='-mt-10 scale-150'
               />
             </div>
             <div className='absolute top-[78%]'>
-              <Image
-                src={'/images/Newsletter/onion.webp'}
-                alt='onion-image'
-                width={300}
-                height={122}
-              />
-            </div>
-            <div className='absolute top-[30%] right-[-23%]'>
-              <Image
-                src={'/images/Newsletter/lec.webp'}
-                alt='lettuce-image'
-                width={300}
-                height={122}
-              />
+             
             </div>
             <div className='absolute bottom-[10%] left-[0%]'>
               <Image

@@ -43,7 +43,7 @@ const ContactForm = () => {
     e.preventDefault()
     setLoader(true)
 
-    fetch('https://formsubmit.co/ajax/bhainirav772@gmail.com', {
+    fetch('https://formspree.io/f/mgvypzgw', {
       method: 'POST',
       headers: { 'Content-type': 'application/json' },
       body: JSON.stringify({
@@ -82,7 +82,7 @@ const ContactForm = () => {
             reservation
           </p>
         <h2 className='mb-9 font-bold tracking-tight text-center'>
-          Dine With Us
+          Contact With Us
         </h2>
         <div className='relative border px-6 py-2 rounded-3xl'>
           <form

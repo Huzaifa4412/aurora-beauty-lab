@@ -16,25 +16,25 @@ const HeaderData: HeaderItem[] = [
 
 const FeaturesData: FeaturesType[] = [
   {
-    imgSrc: '/images/Features/featureOne.svg',
+    imgSrc: '/images/1.svg',
     heading: 'Serene Beauty Lounge',
     subheading:
       'Step into a calming, elegant space designed for relaxation, rejuvenation, and a touch of indulgence.',
   },
   {
-    imgSrc: '/images/Features/featureThree.svg',
+    imgSrc: '/images/2.svg',
     heading: 'Signature Beauty Rituals',
     subheading:
      'Experience exclusive treatments thoughtfully designed by our expert stylists and skin specialists — tailored to bring out your natural radiance.',
   },
   {
-    imgSrc: '/images/Features/featureTwo.svg',
+    imgSrc: '/images/3.svg',
     heading: 'Pure, Skin-Loving Ingredients',
     subheading:
       'We use clean, high-quality products enriched with natural botanicals to nourish your skin and enhance lasting beauty',
   },
   {
-    imgSrc: '/images/Features/featureFour.svg',
+    imgSrc: '/images/6.svg',
     heading: 'Effortless Booking Experience',
     subheading:
       'Schedule your glow-up in just a few clicks — or stop by anytime. We’re here when you need a beauty escape.',
@@ -45,17 +45,28 @@ const ExpertChiefData: ExpertChiefType[] = [
   {
     profession: 'Director Stylist',
     name: 'Marco Benton',
-    imgSrc: '/images/Expert/Olivia.png',
+    imgSrc: '/images/Experts/1.jpg',
   },
   {
     profession: 'Master Stylist',
-    name: 'Elena Rivera',
-    imgSrc: '/images/Expert/Nikki.png',
+    name: 'Michael Smith',
+    imgSrc: '/images/Experts/4.jpg',
+  },
+
+  {
+    profession: 'Senior Stylist',
+    name: 'Madeleine Smith',
+    imgSrc: '/images/Experts/3.jpg',
   },
   {
     profession: 'Senior Stylist',
     name: 'John Doe',
-    imgSrc: '/images/Expert/Shelby.png',
+    imgSrc: '/images/Experts/5.jpg',
+  },
+  {
+    profession: 'Senior Stylist',
+    name: 'Mike',
+    imgSrc: '/images/Experts/4.jpg',
   },
 ]
 

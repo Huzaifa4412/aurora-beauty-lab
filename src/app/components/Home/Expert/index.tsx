@@ -63,9 +63,9 @@ const Expert = () => {
       <div className='container'>
         <div className='text-center'>
           <p className='text-primary text-lg font-normal mb-3 tracking-widest uppercase'>
-            Our Chefs
+            Our Experts
           </p>
-          <h2>Meet Our Culinary Experts</h2>
+          <h2>Meet Our Beauty artistry</h2>
         </div>
         <Slider {...settings}>
           {loading
@@ -81,7 +81,7 @@ const Expert = () => {
                         alt='gaby'
                         width={362}
                         height={262}
-                        className='inline-block m-auto w-auto'
+                        className='inline-block h-[362px] object-cover rounded-xl object-center m-auto'
                       />
                       <div className='absolute top-[75%] -right-[10%]'>
                         <Image

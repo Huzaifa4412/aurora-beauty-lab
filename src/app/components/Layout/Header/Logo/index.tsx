@@ -12,7 +12,7 @@ const Logo: React.FC = () => {
         className="w-fit invert"
         quality={100}
       />
-      <p className="text-black text-2xl font-semibold ">Aurora Beauty Lab</p>
+      <p className="text-black text-2xl font-semibold ">Aurora Beauty </p>
     </Link>
   );
 };

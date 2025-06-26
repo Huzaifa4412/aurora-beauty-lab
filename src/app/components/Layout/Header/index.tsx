@@ -156,7 +156,7 @@ const Header: React.FC = () => {
             />
             +1(909) 235-9814
           </Link>
-                  </div>
+        </div>
       </div>
     </header>
   );
